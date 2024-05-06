@@ -8,14 +8,4 @@ using namespace std;
 
  };
 
- class pelajar{
-    private:
-    int Nilai;
-    public:
-    pelajar() { nilai =100;}
-    friend void manusia::showNilaiPelajar(pelajar &x);
- };
-
- void manusi::showNilaiPelajar(pelajar &x){
-    std::cout << x.nilai;
- }
+ 
